@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>CROSSFIT</title>
+	<meta property="og:image" content="img/logo.png">
+	<!-- init viewport -->
+	<meta name="viewport" content="width=1800">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<!-- Icon For Apple Devices -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo.png">
+	<link rel="apple-touch-icon-precomposed" href="img/logo.png">
+
+
+	<script> 
+	if (screen.width <= 800) {
+		document.location = "/mobile/" + document.location.search;
+	}
+	</script>
+
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	
+
+	<style>
+		.pre-loader{position:fixed;z-index:10000;left:0;right:0;top:0;bottom:0;width:100%;height:100%;background-color:#003f70;-webkit-transition:all .25s;transition:all .25s}body.pre-loaded .pre-loader{-webkit-transform:translate3d(0,-100%,0);-ms-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}.cssload-bell{width:97px;height:99px;-webkit-border-radius:100%;border-radius:100%;position:absolute;left:50%;top:50%;margin-left:-49px;margin-top:-50px}.cssload-circle{width:100%;height:100%;position:absolute}.cssload-circle .cssload-inner{width:100%;height:100%;-webkit-border-radius:100%;border-radius:100%;border:5px solid rgba(0,255,170,.7);border-right:none;border-top:none;-webkit-background-clip:padding;background-clip:padding;-webkit-box-shadow:inset 0 0 10px rgba(0,255,170,.15);box-shadow:inset 0 0 10px rgba(0,255,170,.15)}.cssload-circle:nth-of-type(0){transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);-webkit-transform:rotate(0);-moz-transform:rotate(0)}.cssload-circle:nth-of-type(0) .cssload-inner{animation:cssload-spin 2.3s infinite linear;-o-animation:cssload-spin 2.3s infinite linear;-ms-animation:cssload-spin 2.3s infinite linear;-webkit-animation:cssload-spin 2.3s infinite linear;-moz-animation:cssload-spin 2.3s infinite linear}.cssload-circle:nth-of-type(1){transform:rotate(70deg);-o-transform:rotate(70deg);-ms-transform:rotate(70deg);-webkit-transform:rotate(70deg);-moz-transform:rotate(70deg)}.cssload-circle:nth-of-type(1) .cssload-inner{animation:cssload-spin 2.3s infinite linear;-o-animation:cssload-spin 2.3s infinite linear;-ms-animation:cssload-spin 2.3s infinite linear;-webkit-animation:cssload-spin 2.3s infinite linear;-moz-animation:cssload-spin 2.3s infinite linear}.cssload-circle:nth-of-type(2){transform:rotate(140deg);-o-transform:rotate(140deg);-ms-transform:rotate(140deg);-webkit-transform:rotate(140deg);-moz-transform:rotate(140deg)}.cssload-circle:nth-of-type(2) .cssload-inner{animation:cssload-spin 2.3s infinite linear;-o-animation:cssload-spin 2.3s infinite linear;-ms-animation:cssload-spin 2.3s infinite linear;-webkit-animation:cssload-spin 2.3s infinite linear;-moz-animation:cssload-spin 2.3s infinite linear}.cssload-bell{animation:cssload-spin 5.75s infinite linear;-o-animation:cssload-spin 5.75s infinite linear;-ms-animation:cssload-spin 5.75s infinite linear;-webkit-animation:cssload-spin 5.75s infinite linear;-moz-animation:cssload-spin 5.75s infinite linear}@keyframes cssload-spin{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes cssload-spin{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(360deg)}}
+	</style>
+
+
+</head>
+<body>
+	
+	<div class="pre-loader">
+		<div class="cssload-bell">
+			<div class="cssload-circle">
+				<div class="cssload-inner"></div>
+			</div>
+			<div class="cssload-circle">
+				<div class="cssload-inner"></div>
+			</div>
+			<div class="cssload-circle">
+				<div class="cssload-inner"></div>
+			</div>
+			<div class="cssload-circle">
+				<div class="cssload-inner"></div>
+			</div>
+			<div class="cssload-circle">
+				<div class="cssload-inner"></div>
+			</div>
+		</div>
+	</div>
+
+	<section class="sect1">
+		<div class="sect1__top-line">
+			<div class="container">
+				<div class="sect1__top-p">
+					<span class="sect1__top-text">Первая ознакомительная тренировка всего</span>
+					<span class="sect1__rubble">
+						99
+						<svg 
+						 xmlns="http://www.w3.org/2000/svg"
+						 xmlns:xlink="http://www.w3.org/1999/xlink"
+						 width="20px" height="20px">
+						<path fill-rule="evenodd"  fill="rgb(251, 66, 47)"
+						 d="M18.435,9.728 L14.780,12.829 L7.391,12.829 L7.092,14.532 L13.041,14.532 L12.526,17.366 L6.594,17.366 L6.220,19.500 L3.122,19.500 L3.497,17.366 L0.648,17.366 L1.162,14.532 L3.996,14.532 L6.495,0.331 L16.986,0.331 L19.540,3.426 L18.435,9.728 ZM15.133,3.165 L9.087,3.165 L7.888,9.995 L13.944,9.995 L15.567,8.597 L16.266,4.563 L15.133,3.165 Z"/>
+						</svg>
+					</span>
+				</div>
+				<button class="sect1__top-btn main-btn callback_modal">
+					Записаться
+					<div class="btn-bg"></div>
+				</button>
+				<div class="sect1__wrap-social">
+					<a class="vk-soc" href="https://vk.com/sharkpool" target="_blank"></a>
+					<a class="inst-soc" href="https://www.instagram.com/shark_chekhov/" target="_blank"></a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="sect1__center-img wow fadeIn"></div>
+			<a href="//sharkpool.ru" class="sect1__logo" target="_blank"></a>
+			<div class="sect1__text-center">
+				Круговая, аэробная <br>многофункицональная <br>тренировка
+			</div>
+		</div>
+	</section>
+
+	<section class="sect2">
+		<div class="container">
+			<div class="sect2__block1 parallax" data-rellax-speed="-1.4"></div>
+			<div class="sect2__block2 parallax" data-rellax-speed="-2"></div>
+			<div class="sect2__center">
+				<p class="p1">Приведи себя</p>
+				<p class="p2">в форму</p>
+				<p class="p3">По системе, которая зарекомендовала <br> себя во всем мире</p>
+				<button class="sect2__btn main-btn callback_modal">
+					Улучшить себя
+					<div class="btn-bg"></div>
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="sect3">
+		<div class="container">
+			<div class="sect3__block1 parallax" data-rellax-speed="1.4"></div>
+			<div class="sect3__block2 parallax" data-rellax-speed="1.4"></div>
+			<div class="sect3__block3 parallax" data-rellax-speed="1.4"></div>
+			<div class="sect3__madam wow fadeIn"></div>
+			<div class="sect3__icons">
+				<div class="sect3__item wow fadeInUp" data-wow-offset="200" data-wow-duration=".7s">
+					<div class="sect3__icon">
+						<svg 
+						 xmlns="http://www.w3.org/2000/svg"
+						 xmlns:xlink="http://www.w3.org/1999/xlink"
+						 width="63px" height="63px">
+						<image  x="0px" y="0px" width="63px" height="63px"  xlink:href="data:img/png;base64,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" />
+						</svg>
+					</div>
+					<div class="sect3__text">Одновременно развивается выносливость, сила, координация</div>
+				</div>
+				<div class="sect3__item wow fadeInUp" data-wow-offset="200" data-wow-duration=".7s">
+					<div class="sect3__icon">
+						<svg 
+						 xmlns="http://www.w3.org/2000/svg"
+						 xmlns:xlink="http://www.w3.org/1999/xlink"
+						 width="58px" height="60px">
+						<defs>
+						<filter id="Filter_0">
+						    <feFlood flood-color="rgb(251, 66, 47)" flood-opacity="1" result="floodOut" />
+						    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+						    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+						</filter>
+
+						</defs>
+						<g filter="url(#Filter_0)">
+						<path fill-rule="evenodd"  fill="rgb(253, 98, 67)"
+						 d="M54.295,18.635 L40.298,31.171 C38.462,33.086 36.147,34.541 33.536,35.329 L33.536,38.810 C34.821,40.033 35.551,41.717 35.551,43.500 C35.551,45.283 34.821,46.967 33.536,48.190 L33.536,52.000 L35.551,52.000 C39.438,52.000 42.602,55.140 42.602,59.000 L42.602,60.000 L15.404,60.000 L15.404,59.000 C15.404,55.140 18.568,52.000 22.456,52.000 L24.470,52.000 L24.470,48.189 C23.185,46.966 22.456,45.282 22.456,43.499 C22.456,41.716 23.185,40.032 24.470,38.809 L24.470,35.328 C21.693,34.490 19.252,32.896 17.367,30.798 L3.720,18.575 C-0.496,14.713 -0.991,8.341 2.609,4.363 C2.649,4.317 6.817,0.020 13.390,3.223 L13.390,2.128 C13.390,0.955 14.352,-0.000 15.533,-0.000 L42.473,-0.000 C43.655,-0.000 44.616,0.955 44.616,2.128 L44.616,3.289 C51.212,0.069 55.357,4.386 55.402,4.435 C58.995,8.408 58.500,14.780 54.295,18.635 ZM24.469,54.000 L22.455,54.000 C20.022,54.000 17.988,55.721 17.520,58.000 L40.486,58.000 C40.018,55.721 37.983,54.000 35.551,54.000 L33.535,54.000 L24.469,54.000 ZM26.119,46.971 L26.485,47.271 L26.485,52.000 L31.521,52.000 L31.521,47.272 L31.887,46.972 C32.935,46.113 33.536,44.847 33.536,43.500 C33.536,42.153 32.935,40.887 31.887,40.028 L31.521,39.728 L31.521,35.786 C31.433,35.801 31.346,35.806 31.258,35.819 C30.965,35.862 30.673,35.905 30.375,35.931 C29.947,35.970 29.522,35.992 29.097,35.995 C29.066,35.995 29.035,36.000 29.003,36.000 C28.971,36.000 28.941,35.995 28.909,35.994 C28.484,35.992 28.058,35.970 27.631,35.930 C27.333,35.904 27.042,35.860 26.749,35.818 C26.660,35.805 26.574,35.800 26.485,35.785 L26.485,39.727 L26.119,40.027 C25.072,40.886 24.470,42.152 24.470,43.499 C24.470,44.846 25.072,46.112 26.119,46.971 ZM14.106,25.141 C14.086,25.075 14.071,25.007 14.051,24.941 C13.936,24.560 13.835,24.174 13.750,23.784 C13.721,23.650 13.697,23.514 13.671,23.379 C13.605,23.036 13.552,22.690 13.511,22.342 C13.495,22.206 13.476,22.071 13.463,21.934 C13.419,21.460 13.390,20.982 13.390,20.500 L13.390,5.492 C11.531,4.402 9.912,4.030 8.568,4.030 C5.790,4.030 4.190,5.617 4.089,5.719 C1.241,8.868 1.677,13.981 5.079,17.098 L14.122,25.200 C14.116,25.181 14.112,25.161 14.106,25.141 ZM42.602,4.454 L42.602,2.128 C42.602,2.058 42.543,2.000 42.473,2.000 L15.533,2.000 C15.462,2.000 15.404,2.058 15.404,2.128 L15.404,4.387 L15.404,20.500 C15.404,20.928 15.430,21.350 15.467,21.768 C15.479,21.896 15.498,22.023 15.514,22.150 C15.551,22.441 15.594,22.730 15.648,23.016 C15.675,23.159 15.706,23.300 15.738,23.442 C15.798,23.709 15.868,23.973 15.943,24.234 C15.986,24.376 16.025,24.520 16.071,24.661 C16.154,24.914 16.250,25.160 16.346,25.406 C16.403,25.548 16.451,25.691 16.512,25.831 C16.608,26.051 16.720,26.263 16.827,26.477 C17.021,26.863 17.232,27.243 17.465,27.613 C17.512,27.687 17.554,27.764 17.602,27.837 C17.766,28.085 17.941,28.325 18.121,28.564 C19.974,31.020 22.642,32.827 25.729,33.588 C26.265,33.720 26.793,33.817 27.319,33.885 C27.343,33.888 27.367,33.893 27.391,33.896 C28.469,34.030 29.535,34.030 30.613,33.896 C30.637,33.893 30.661,33.888 30.685,33.885 C31.211,33.817 31.740,33.720 32.275,33.588 C38.195,32.129 42.602,26.822 42.602,20.500 L42.602,4.454 ZM53.899,5.766 C53.769,5.633 50.319,2.210 44.616,5.558 L44.616,20.500 L44.616,20.566 C44.616,21.066 44.584,21.561 44.537,22.053 C44.535,22.080 44.531,22.106 44.528,22.133 C44.419,23.203 44.210,24.253 43.884,25.266 L52.937,17.157 C56.329,14.048 56.765,8.934 53.899,5.766 ZM37.335,27.477 C37.400,27.852 37.245,28.231 36.935,28.455 C36.759,28.582 36.551,28.646 36.342,28.646 C36.182,28.646 36.020,28.608 35.873,28.531 L29.115,25.004 L22.357,28.531 C22.017,28.708 21.607,28.679 21.295,28.455 C20.986,28.231 20.831,27.852 20.895,27.477 L22.186,20.006 L16.717,14.715 C16.442,14.449 16.344,14.052 16.462,13.690 C16.582,13.328 16.896,13.064 17.276,13.009 L24.832,11.919 L28.211,5.122 C28.380,4.780 28.731,4.564 29.114,4.564 C29.497,4.564 29.847,4.781 30.017,5.122 L33.395,11.919 L40.951,13.009 C41.331,13.064 41.646,13.328 41.765,13.690 C41.883,14.052 41.784,14.449 41.510,14.715 L36.042,20.007 L37.335,27.477 ZM38.640,14.698 L32.579,13.824 C32.251,13.777 31.968,13.572 31.821,13.277 L29.111,7.825 L26.400,13.277 C26.253,13.572 25.970,13.777 25.642,13.824 L19.582,14.698 L23.968,18.942 C24.204,19.172 24.313,19.503 24.257,19.827 L23.222,25.819 L28.643,22.990 C28.938,22.837 29.286,22.837 29.581,22.990 L35.002,25.819 L33.967,19.827 C33.912,19.503 34.020,19.172 34.254,18.942 L38.640,14.698 Z"/>
+						</g>
+						</svg>
+					</div>
+					<div class="sect3__text">Сбалансированные упражнения, которые превратят тренировку в увлекательный квест</div>
+				</div>
+				<div class="sect3__item wow fadeInUp" data-wow-offset="200" data-wow-duration=".7s">
+					<div class="sect3__icon">
+						<svg 
+						 xmlns="http://www.w3.org/2000/svg"
+						 xmlns:xlink="http://www.w3.org/1999/xlink"
+						 width="79px" height="66px">
+						<image  x="0px" y="0px" width="79px" height="66px"  xlink:href="data:img/png;base64,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" />
+						</svg>
+					</div>
+					<div class="sect3__text">Упражнения, которые пригодятся в реальной жизни</div>
+				</div>
+				<div class="sect3__item wow fadeInUp" data-wow-offset="200" data-wow-duration=".7s">
+					<div class="sect3__icon">
+						<svg 
+						 xmlns="http://www.w3.org/2000/svg"
+						 xmlns:xlink="http://www.w3.org/1999/xlink"
+						 width="58px" height="62px">
+						<defs>
+						<filter id="Filter_0">
+						    <feFlood flood-color="rgb(251, 66, 47)" flood-opacity="1" result="floodOut" />
+						    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+						    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+						</filter>
+
+						</defs>
+						<g filter="url(#Filter_0)">
+						<path fill-rule="evenodd"  fill="rgb(253, 98, 67)"
+						 d="M57.017,18.700 L49.560,18.700 L52.797,21.942 C53.181,22.326 53.181,22.949 52.797,23.333 C52.606,23.525 52.354,23.621 52.102,23.621 C51.851,23.621 51.599,23.525 51.407,23.333 L46.492,18.412 C46.108,18.028 46.108,17.405 46.492,17.021 L51.407,12.101 C51.791,11.716 52.414,11.716 52.797,12.101 C53.181,12.485 53.181,13.108 52.797,13.492 L49.560,16.732 L57.017,16.732 C57.560,16.732 58.000,17.173 58.000,17.717 C58.000,18.260 57.560,18.700 57.017,18.700 ZM43.253,17.717 C43.253,20.110 44.650,22.195 46.418,24.834 C47.933,27.095 49.745,29.814 51.099,33.473 C51.114,33.503 51.138,33.524 51.150,33.556 C51.567,34.695 51.920,35.880 52.199,37.079 C52.206,37.110 52.198,37.140 52.202,37.171 C52.745,39.518 53.084,42.185 53.084,45.271 C53.084,51.171 51.512,56.797 48.537,61.540 C48.359,61.826 48.044,62.000 47.706,62.000 L31.457,62.000 C30.915,62.000 30.474,61.560 30.474,61.016 L30.474,59.048 L28.508,59.048 L28.508,61.016 C28.508,61.560 28.068,62.000 27.525,62.000 L11.277,62.000 C10.939,62.000 10.624,61.826 10.444,61.539 C7.470,56.796 5.897,51.170 5.897,45.271 C5.897,42.176 6.205,39.503 6.697,37.152 C6.700,37.126 6.693,37.102 6.698,37.076 C6.715,36.998 6.741,36.923 6.758,36.844 C6.933,36.043 7.134,35.287 7.349,34.560 C7.388,34.427 7.413,34.286 7.454,34.154 C7.460,34.134 7.475,34.120 7.483,34.101 C8.716,30.138 10.452,27.254 11.888,24.873 C13.484,22.226 14.745,20.135 14.745,17.717 C14.745,14.533 13.853,12.971 12.909,11.316 C11.878,9.511 10.813,7.645 10.813,3.940 C10.813,3.710 10.814,3.480 10.816,3.252 C10.820,2.908 11.003,2.590 11.299,2.416 C11.596,2.241 11.962,2.234 12.265,2.398 C14.136,3.406 16.353,3.940 18.677,3.940 C22.360,3.940 25.760,2.583 27.772,0.311 C28.145,-0.109 28.869,-0.109 29.243,0.311 C31.255,2.583 34.655,3.940 38.338,3.940 C41.047,3.940 43.642,3.200 45.645,1.858 C45.944,1.658 46.329,1.638 46.648,1.804 C46.967,1.971 47.169,2.299 47.175,2.660 C47.182,3.083 47.186,3.511 47.186,3.940 C47.186,7.646 46.121,9.512 45.090,11.317 C44.146,12.971 43.253,14.534 43.253,17.717 ZM32.441,60.032 L47.156,60.032 C49.751,55.700 51.119,50.609 51.119,45.271 C51.119,42.750 50.889,40.535 50.503,38.559 C45.267,40.376 39.604,45.748 35.502,52.861 C34.455,54.677 33.543,56.551 32.791,58.429 C32.718,58.611 32.594,58.761 32.441,58.868 L32.441,60.032 ZM7.864,45.271 C7.864,50.609 9.233,55.700 11.826,60.032 L26.543,60.032 L26.543,58.857 C26.395,58.750 26.275,58.605 26.204,58.429 C25.452,56.551 24.541,54.677 23.493,52.861 C19.365,45.705 13.677,40.325 8.421,38.534 C8.072,40.517 7.864,42.740 7.864,45.271 ZM9.038,35.758 C9.000,35.897 8.966,36.038 8.930,36.178 C8.895,36.315 8.863,36.456 8.829,36.595 C14.593,38.475 20.786,44.232 25.196,51.877 C26.175,53.575 27.042,55.323 27.776,57.080 L31.219,57.080 C31.954,55.322 32.820,53.575 33.799,51.877 C38.174,44.292 44.321,38.551 50.052,36.633 C50.024,36.527 49.997,36.421 49.967,36.317 C49.889,36.036 49.806,35.757 49.719,35.479 C49.685,35.370 49.650,35.261 49.614,35.153 C43.399,37.268 36.127,38.382 28.509,38.382 C21.599,38.382 14.899,37.451 9.059,35.685 C9.052,35.710 9.045,35.733 9.038,35.758 ZM38.339,5.907 C34.513,5.907 30.921,4.599 28.508,2.367 C26.095,4.600 22.503,5.907 18.678,5.907 C16.609,5.907 14.608,5.533 12.803,4.814 C12.951,7.424 13.762,8.844 14.616,10.339 C15.646,12.144 16.712,14.011 16.712,17.716 C16.712,20.682 15.257,23.095 13.572,25.889 C12.254,28.075 10.771,30.545 9.646,33.792 C15.301,35.502 21.792,36.414 28.508,36.414 C35.900,36.414 42.928,35.328 48.934,33.290 C47.715,30.307 46.169,27.992 44.787,25.929 C42.910,23.128 41.288,20.708 41.288,17.717 C41.288,14.011 42.353,12.145 43.384,10.340 C44.285,8.762 45.139,7.267 45.215,4.370 C43.175,5.369 40.792,5.907 38.339,5.907 ZM11.508,18.412 L6.592,23.332 C6.401,23.524 6.149,23.621 5.897,23.621 C5.646,23.621 5.394,23.525 5.203,23.332 C4.819,22.948 4.819,22.325 5.203,21.941 L8.440,18.700 L0.982,18.700 C0.440,18.700 -0.001,18.260 -0.001,17.717 C-0.001,17.173 0.440,16.732 0.982,16.732 L8.440,16.732 L5.203,13.492 C4.819,13.108 4.819,12.485 5.203,12.100 C5.586,11.716 6.209,11.716 6.593,12.100 L11.508,17.021 C11.892,17.405 11.892,18.028 11.508,18.412 Z"/>
+						</g>
+						</svg>
+					</div>
+					<div class="sect3__text">Функциональный тренинг и правильный рацион питания это самый быстрый путь к кубикам пресса и тонкой талии</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sect4">
+		<div class="container">
+			<div class="sect4__bl1 parallax" data-rellax-speed="3"></div>
+			<div class="sect4__bl2 parallax" data-rellax-speed="2.3"></div>
+			<div class="sect4__programms wow fadeIn">
+				<div class="sect4__prog sect4__prog1">
+					<div class="sect4__plashka1">
+						<div class="sect4__plashka1-inner"></div>
+						<span>Начальный <br>уровень</span>
+					</div>
+					<div class="sect4__plashka2">
+						<div class="sect4__plashka2-inner"></div>
+						<span>Crossfit</span>
+					</div>
+					<div class="sect4__numb">01</div>
+					<div class="sect4__prog-name">Gymnastic</div>
+					<div class="sect4__descr">Тренировка на которой вас научат управлять своим телом в пространстве, используя такие снаряды как турник, гимнастические кольца, канат, скакалку и т.д, Вы сможете укрепить мышцы, сделать подвижными суставы, усилить мышцы стабилизаторы и сделать ваши связки более эластичными. Тренировка подойдет как новичкам, так и продвинутым атлетам.</div>
+				</div>
+				<div class="sect4__prog sect4__prog2">
+					<div class="sect4__plashka1">
+						<div class="sect4__plashka1-inner"></div>
+						<span>Средний <br>уровень</span>
+					</div>
+					<div class="sect4__plashka2">
+						<div class="sect4__plashka2-inner"></div>
+						<span>Crossfit</span>
+					</div>
+					<div class="sect4__numb">02</div>
+					<div class="sect4__prog-name">Base</div>
+					<div class="sect4__descr">Функциональная тренировка направленная одновременно на ускорение процессов жиросжигания, укрепление мышечного корсета и формирование мышечной структуры. Тренировочный процесс включает в себя различные многофункциональные движения, связанные с подъемом и перемещением внешних отягощений.</div>
+				</div>
+				<div class="sect4__prog sect4__prog3">
+					<div class="sect4__plashka1">
+						<div class="sect4__plashka1-inner"></div>
+						<span>Высокий <br>уровень</span>
+					</div>
+					<div class="sect4__plashka2">
+						<div class="sect4__plashka2-inner"></div>
+						<span>Crossfit</span>
+					</div>
+					<div class="sect4__numb">03</div>
+					<div class="sect4__prog-name">On Ramp</div>
+					<div class="sect4__descr">Функциональная тренировка направленная на ознакомление с основными движениями связанными с подъемом и перемещением внешних отягощений,с кардио нагрузкой и гимнастическими упражнениями со своим телом.Интенсивность тренировки умеренная.</div>
+				</div>
+				<div class="sect4__prog sect4__prog4">
+					<div class="sect4__plashka1 sect4__plashka1-4">
+						<div class="sect4__plashka1-inner"></div>
+						<span>Профессиональный <br>уровень</span>
+					</div>
+					<div class="sect4__plashka2">
+						<div class="sect4__plashka2-inner"></div>
+						<span>Crossfit</span>
+					</div>
+					<div class="sect4__numb">04</div>
+					<div class="sect4__prog-name">Lifting</div>
+					<div class="sect4__descr">Тренировка преимущественно направленная на развитие мышечной силы и формирование мышечного корсета, в ее основе лежат занятия с внешними отягощениями (штанга, гантели, гири, тяжелые мешки, мячи, сани и т.д.). Набор упражнений из таких силовых видов спорта как тяжелая атлетика, пауэрлифтинг, стронгмен, гиревой спорт, АРМ спорт.</div>
+				</div>
+			</div>
+
+			<div class="sect4__wrap-slider">
+				<div class="sect4__slider owl-carousel">
+					
+					<div class="sect4__item-slrd">
+						<div class="sect4__wrap-slds wow slideInLeft">
+							<div class="sect4__slide">
+								<div class="sect4__slide-head">Первые 100 карт</div>
+								<div class="sect4__slide-text">
+									<p>Идут с бонусом</p>
+									<b>500 руб</b>
+								</div>
+								<div class="sect4__slide-card">
+									<img src="img/card-shark.png" alt="card">
+								</div>
+								<div class="sect4__slide-ostalos">
+									<div class="sect4__ost-left">Бонусных карт осталось</div>
+									<div class="sect4__ost-right">
+										<span class="accent-num">53</span>
+										<span class="palka">/</span>
+										<span class="white-num">100</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="sect4__wrap-text wow slideInRight">
+							<div class="h1">Начни меняться</div>
+							<div class="h2">уже сегодня</div>
+							<div class="sect4__podrobno">
+								<div class="sect4__podrobno-bg"></div>
+								<div class="sect4__podrobno-left">
+									<div class="accent-text">Crossfit</div>
+									<p>Gymnastic</p>
+								</div>
+								<div class="sect4__podrobno-right">
+									<div class="sect4__price">2500</div>
+									<p>в месяц</p>
+								</div>
+							</div>
+							<form class="sect4__form ajax_send">
+								<input type="tel" name="tel" placeholder="Номер телефона">
+								<input type="hidden" name="type_card" value="Crossfit - Gymnastic">
+								<button class="main-btn sect4__submit" type="submit">
+									Купить карту <br>со скидкой
+									<div class="btn-bg"></div>
+								</button>
+							</form>
+						</div>
+					
+					</div>
+
+					<div class="sect4__item-slrd">
+						<div class="sect4__wrap-slds">
+							<div class="sect4__slide">
+								<div class="sect4__slide-head">Первые 100 карт</div>
+								<div class="sect4__slide-text">
+									<p>Идут с бонусом</p>
+									<b>500 руб</b>
+								</div>
+								<div class="sect4__slide-card">
+									<img src="img/card-shark.png" alt="card">
+								</div>
+								<div class="sect4__slide-ostalos">
+									<div class="sect4__ost-left">Бонусных карт осталось</div>
+									<div class="sect4__ost-right">
+										<span class="accent-num">53</span>
+										<span class="palka">/</span>
+										<span class="white-num">100</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="sect4__wrap-text">
+							<div class="h1">Начни меняться</div>
+							<div class="h2">уже сегодня</div>
+							<div class="sect4__podrobno">
+								<div class="sect4__podrobno-bg"></div>
+								<div class="sect4__podrobno-left">
+									<div class="accent-text">Crossfit</div>
+									<p>Base</p>
+								</div>
+								<div class="sect4__podrobno-right">
+									<div class="sect4__price">2500</div>
+									<p>в месяц</p>
+								</div>
+							</div>
+							<form class="sect4__form ajax_send">
+								<input type="tel" name="tel" placeholder="Номер телефона">
+								<input type="hidden" name="type_card" value="Crossfit - Base">
+								<button class="main-btn sect4__submit" type="submit">
+									Купить карту <br>со скидкой
+									<div class="btn-bg"></div>
+								</button>
+							</form>
+						</div>
+					</div>
+
+					<div class="sect4__item-slrd">
+						<div class="sect4__wrap-slds">
+							<div class="sect4__slide">
+								<div class="sect4__slide-head">Первые 100 карт</div>
+								<div class="sect4__slide-text">
+									<p>Идут с бонусом</p>
+									<b>500 руб</b>
+								</div>
+								<div class="sect4__slide-card">
+									<img src="img/card-shark.png" alt="card">
+								</div>
+								<div class="sect4__slide-ostalos">
+									<div class="sect4__ost-left">Бонусных карт осталось</div>
+									<div class="sect4__ost-right">
+										<span class="accent-num">53</span>
+										<span class="palka">/</span>
+										<span class="white-num">100</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="sect4__wrap-text">
+							<div class="h1">Начни меняться</div>
+							<div class="h2">уже сегодня</div>
+							<div class="sect4__podrobno">
+								<div class="sect4__podrobno-bg"></div>
+								<div class="sect4__podrobno-left">
+									<div class="accent-text">Crossfit</div>
+									<p>On Ramp</p>
+								</div>
+								<div class="sect4__podrobno-right">
+									<div class="sect4__price">2500</div>
+									<p>в месяц</p>
+								</div>
+							</div>
+							<form class="sect4__form ajax_send">
+								<input type="tel" name="tel" placeholder="Номер телефона">
+								<input type="hidden" name="type_card" value="Crossfit - On Ramp">
+								<button class="main-btn sect4__submit" type="submit">
+									Купить карту <br>со скидкой
+									<div class="btn-bg"></div>
+								</button>
+							</form>
+						</div>
+					</div>
+
+					<div class="sect4__item-slrd">
+						<div class="sect4__wrap-slds">
+							<div class="sect4__slide">
+								<div class="sect4__slide-head">Первые 100 карт</div>
+								<div class="sect4__slide-text">
+									<p>Идут с бонусом</p>
+									<b>500 руб</b>
+								</div>
+								<div class="sect4__slide-card">
+									<img src="img/card-shark.png" alt="card">
+								</div>
+								<div class="sect4__slide-ostalos">
+									<div class="sect4__ost-left">Бонусных карт осталось</div>
+									<div class="sect4__ost-right">
+										<span class="accent-num">53</span>
+										<span class="palka">/</span>
+										<span class="white-num">100</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="sect4__wrap-text">
+							<div class="h1">Начни меняться</div>
+							<div class="h2">уже сегодня</div>
+							<div class="sect4__podrobno">
+								<div class="sect4__podrobno-bg"></div>
+								<div class="sect4__podrobno-left">
+									<div class="accent-text">Crossfit</div>
+									<p>Lifting</p>
+								</div>
+								<div class="sect4__podrobno-right">
+									<div class="sect4__price">2500</div>
+									<p>в месяц</p>
+								</div>
+							</div>
+							<form class="sect4__form ajax_send">
+								<input type="tel" name="tel" placeholder="Номер телефона">
+								<input type="hidden" name="type_card" value="Crossfit - Lifting">
+								<button class="main-btn sect4__submit" type="submit">
+									Купить карту <br>со скидкой
+									<div class="btn-bg"></div>
+								</button>
+							</form>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="sect4__next">
+					<svg 
+					 xmlns="http://www.w3.org/2000/svg"
+					 xmlns:xlink="http://www.w3.org/1999/xlink"
+					 width="12px" height="17px">
+					<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+					 d="M10.951,9.049 L10.998,9.097 L3.097,16.998 L1.002,14.903 L6.892,9.013 L0.939,3.061 L3.061,0.939 L11.061,8.939 L10.951,9.049 Z"/>
+					</svg>
+					<div class="sect4__next-inner"></div>
+				</div>
+				<div class="sect4__prev">
+					<svg 
+					 xmlns="http://www.w3.org/2000/svg"
+					 xmlns:xlink="http://www.w3.org/1999/xlink"
+					 width="10px" height="16px">
+					<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+					 d="M4.119,8.044 L9.936,13.911 L7.867,15.998 L0.064,8.128 L0.110,8.080 L0.002,7.971 L7.903,0.002 L9.998,2.115 L4.119,8.044 Z"/>
+					</svg>
+					<div class="sect4__prev-inner"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<section class="sect5">
+		<div class="container">
+			<div class="sect5__h1">Видео <br>тренировок</div>
+			<div class="sect5__flbl1"></div>
+			<div class="sect5__flbl2"></div>
+			<div class="sect5__flbl3"></div>
+			<div class="sect5__flbl4"></div>
+		</div>
+
+		<div class="sect5__left wow fadeIn">
+			<div class="sect5__video">
+				<a href="https://www.youtube.com/watch?v=9Av6OGUod3A" class="sect5__video-knopka">
+					<svg 
+					 xmlns="http://www.w3.org/2000/svg"
+					 xmlns:xlink="http://www.w3.org/1999/xlink"
+					 width="9px" height="15px">
+					<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+					 d="M8.100,7.500 L0.200,15.000 L2.000,0.000 L8.100,7.500 Z"/>
+					</svg>
+				</a>
+			</div>
+		</div>
+		<div class="sect5__right wow fadeIn">
+			<div class="sect5__right-inner">
+				<a class="sect5__img1 popup-image" href="img/bottom-photo1.jpg" data-mfp-src="img/bottom-photo1.jpg"></a>
+				<a class="sect5__img2 popup-image" href="img/bottom-photo2.jpg" data-mfp-src="img/bottom-photo2.jpg"></a>
+				<a class="sect5__img3 popup-image" href="img/bottom-photo3.jpg" data-mfp-src="img/bottom-photo3.jpg"></a>
+			</div>
+		</div>
+		<div class="sect5__social">
+			<p>Подписывайся на соц.сети</p>
+			<a href="https://vk.com/sharkpool" target="_blank" class="sect5__vk">
+				<p>Группа <br>Вконтакте</p>
+			</a>
+			<a href="https://www.instagram.com/shark_chekhov/" target="_blank" class="sect5__inst">
+				<p>Instagram</p>
+			</a>
+		</div>
+
+	</section>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__girya"></div>
+			<div class="footer__bl1"></div>
+			<a href="http://sharkpool.ru/" class="footer__logo" target="_blank"><img src="img/logo.png" alt="foot-logo"></a>
+			<div class="footer__cols">
+				<div class="footer__col1">
+					<div class="footer__hd">Звони</div>
+					<a href="tel:84997033733" class="footer__tel">8 (499) 703-37-33</a>
+				</div>
+				<div class="footer__col2">
+					<div class="footer__hd">Приезжай</div>
+					<div class="footer__email">г. Чехов ул. Гагарина 22А</div>
+				</div>
+				<div class="footer__col3">
+					<div class="footer__hd">Пиши</div>
+					<a href="mailto:hello@sharkpool.ru" class="footer__email">hello@sharkpool.ru</a>
+				</div>
+			</div>
+			<div class="footer__conf">политика конфиденциальности</div>
+		</div>
+	</footer>
+
+
+
+
+	<div class="hidden-block">
+		<div id="callback-modal">
+			<div class="inner-callback">
+				<div class="arcticmodal-close box-modal_close">
+					<div class="inner-close"></div>
+					<div class="close-icon"></div>
+				</div>
+				<form class="inner-form ajax_send">
+					<div class="form-h2">Запись на тренировку</div>
+					<input type="text" name="name" placeholder="Ваше имя">
+					<input type="tel" name="tel" placeholder="Номер телефона">
+					<button type="submit" class="main-btn">
+						<span class="btn-bg"></span>
+						<p>Записаться</p>
+					</button>
+
+					<label class="wrap-checks">
+						<span>Я принимаю условия <a href="#" class="inform-send">передачи информации</a></span>
+						<input type="checkbox" checked="checked">
+						<span class="checkmark"></span>
+					</label>
+
+				</form>
+			</div>
+		</div>
+
+		<div id="info-send">
+			<div class="modal-inner">
+				<div class="arcticmodal-close box-modal_close">
+					<div class="inner-close"></div>
+					<div class="close-icon"></div>
+				</div>
+				<h2>Условия передачи информации</h2>
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid similique optio expedita qui vel quod consectetur placeat, rerum, dicta ipsam ducimus quidem eaque minus aspernatur, nobis molestias voluptatibus quae. <br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid similique optio expedita qui vel quod consectetur placeat, rerum, dicta ipsam ducimus quidem eaque minus aspernatur, nobis molestias voluptatibus quae. <br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid similique optio expedita qui vel quod consectetur placeat, rerum, dicta ipsam ducimus quidem eaque minus aspernatur, nobis molestias voluptatibus quae.
+			</div>
+		</div>
+
+		<div id="conf-politic">
+			<div class="modal-inner">
+				<div class="arcticmodal-close box-modal_close">
+					<div class="inner-close"></div>
+					<div class="close-icon"></div>
+				</div>
+				<h2>Политика конфиденциальности</h2>
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid similique optio expedita qui vel quod consectetur placeat, rerum, dicta ipsam ducimus quidem eaque minus aspernatur, nobis molestias voluptatibus quae. <br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid similique optio expedita qui vel quod consectetur placeat, rerum, dicta ipsam ducimus quidem eaque minus aspernatur, nobis molestias voluptatibus quae. <br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid similique optio expedita qui vel quod consectetur placeat, rerum, dicta ipsam ducimus quidem eaque minus aspernatur, nobis molestias voluptatibus quae.
+			</div>
+		</div>
+
+		<div id="modal_error">
+			<div class="modal-inner">
+				<div class="arcticmodal-close box-modal_close">
+					<div class="inner-close"></div>
+					<div class="close-icon"></div>
+				</div>
+				<p>Вы допустили ошибку при заполнении формы,</p>
+				<p>или не заполнили обязательные поля!</p>
+			</div>
+		</div>
+
+		<div id="modal_thank">
+			<div class="modal-inner">
+				<div class="arcticmodal-close box-modal_close">
+					<div class="inner-close"></div>
+					<div class="close-icon"></div>
+				</div>
+				<p>Спасибо за вашу заявку!</p>
+				<p>В ближайшее время с вами свяжется менеджер.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<!-- main stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- google API (for maps) -->
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdzwz73OHrdVGjKVKow8ID8T31yNxiBSI"></script> -->
+
+	<!-- scripts -->
+	<script src="js/libs.min.js"></script>
+	<!-- <script>new WOW().init();</script> -->
+	<script src="js/map.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+</body>
+</html>

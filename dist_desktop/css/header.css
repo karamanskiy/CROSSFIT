@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "ProximaRegular", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #1f1f35;
+  overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  margin-right: 0 !important; }
+
+section a, section a:visited, section a:focus {
+  text-decoration: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  color: #1f1f35; }
+
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #2b2bbb; }
+
+a:focus, .btn:focus, button:focus {
+  outline: none;
+  text-decoration: none; }
+
+input:focus, textarea:focus, select:focus {
+  outline: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+ul, ol {
+  padding-left: 0; }
+
+li {
+  list-style: none; }
+
+.clear, .clearfix {
+  clear: both; }
+  .clear:after, .clearfix:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.hidden-block {
+  display: none; }
+
+.error-input {
+  border-color: #EE102E !important; }
+
+/* Стили хедера */
